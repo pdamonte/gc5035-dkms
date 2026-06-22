@@ -53,6 +53,19 @@ IPU_SENSOR_CONFIG("GCTI5035", 1, 438000000),
 
 to `drivers/media/pci/intel/ipu-bridge.c`.
 
+## Related repositories
+
+- [`pdamonte/gc8034-dkms`](https://github.com/pdamonte/gc8034-dkms):
+  Ubuntu/Debian DKMS package for the companion `GC8034` / `GCTI8034` camera
+  sensor driver.
+- [`pdamonte/ipu-bridge-gc-cameras-akmod`](https://github.com/pdamonte/ipu-bridge-gc-cameras-akmod):
+  Fedora akmods package for the Intel IPU6 bridge module that advertises
+  `GCTI5035` and `GCTI8034` support to the IPU6 media graph.
+
+## License
+
+This project is licensed under `GPL-2.0-only`. See [LICENSE](LICENSE).
+
 ## Uninstall
 
 ```sh
