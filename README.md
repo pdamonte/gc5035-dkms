@@ -1,5 +1,11 @@
 # GC5035 / GCTI5035 DKMS driver
 
+> **Note:** the driver in this repo does not build on kernel 7.2+
+> (`linux/of_gpio.h` was removed) and reports front/rear facing swapped on the
+> Chuwi Hi10 Max. Updated sources live in
+> [gc-cameras-akmod](https://github.com/pdamonte/gc-cameras-akmod)
+> (`src/gc-cameras-0.2/`), which Fedora users should install instead.
+
 Linux DKMS package for the GalaxyCore GC5035-compatible sensor exposed on this
 machine as ACPI HID `GCTI5035`.
 
